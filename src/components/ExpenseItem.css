@@ -2,11 +2,9 @@
 
 .expense-item {
     background-color: burlywood;
-    border-radius: 15px;
     width: 500px;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
     border: 1px solid rgb(174, 106, 53);
     margin: 5px;
 
