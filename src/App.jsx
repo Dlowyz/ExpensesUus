@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import ExpenseItem from './components/ExpenseItem'
+import Expenses from './components/Expenses'
 function App() {
   const [count, setCount] = useState(0)
   const expenses = [
@@ -20,11 +21,8 @@ function App() {
   
   return (
     <>
-      <ExpenseItem
-        data={expenses[0]}
-      />
-      <ExpenseItem
-        data={expenses[1]}
+      <Expenses
+        data={expenses}
       />
         
     </>
