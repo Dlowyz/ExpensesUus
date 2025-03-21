@@ -5,17 +5,15 @@
     border-radius: 15px;
     width: 500px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 10px;
     border: 1px solid rgb(174, 106, 53);
     margin: 5px;
 
 }
-
-.expense-item_date{
-    display: flex;
-    align-self: center;
-    padding: 3px;
+.expense-item_date {
+    display: block;
+    left: 0px;
 }
 
 .expense-item_description h2{
