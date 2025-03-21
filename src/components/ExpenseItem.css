@@ -14,6 +14,11 @@
 .expense-item_date {
     display: block;
     left: 0px;
+    background-color: rgb(208, 152, 60);
+    width: 75px;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid rgb(174, 106, 53);
 }
 
 .expense-item_description h2{
@@ -23,4 +28,5 @@
     display: flex;
     font-size: medium;
     font-style: normal;
+    padding: 5px;
 }

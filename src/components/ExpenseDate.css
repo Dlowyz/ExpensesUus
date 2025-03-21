@@ -1,0 +1,15 @@
+.day{
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+}
+.month{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+.year{
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: rgb(0, 0, 0);
+}

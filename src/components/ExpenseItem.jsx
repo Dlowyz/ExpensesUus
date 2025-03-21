@@ -10,7 +10,7 @@ const ExpenseItem = (props) => {
         </div>
         <div className='expense-item_description'>
             <h2>{props.data.title}</h2>
-            <div className='expense-item_price'>{props.data.price}</div>
+            <div className='expense-item_price'>{props.data.price}€</div>
         </div>
     </div>
   )
