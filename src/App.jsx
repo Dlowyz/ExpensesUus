@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import NewExpense from './components/NewExpense/NewExpense'
 import ExpenseItem from './components/Expenses/ExpenseItem'
 import Expenses from './components/Expenses/Expenses'
 function App() {
@@ -21,6 +22,7 @@ function App() {
   
   return (
     <>
+    <NewExpense/>
       <Expenses
         data={expenses}
       />

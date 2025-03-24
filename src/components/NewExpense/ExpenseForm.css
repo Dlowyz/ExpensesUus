@@ -1,0 +1,19 @@
+.new-expense-control {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column; /* 👈 this stacks label above input */
+    align-items: flex-start; /* optional: aligns label and input to the left */
+    gap: 0.5rem; /* spacing between label and input */
+}
+
+.new-expense-control input {
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
