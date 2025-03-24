@@ -19,10 +19,14 @@ function App() {
       price: 10.99
     }
     ]
+    const addExpenseHandler = (expense) => {
+      console.log('in App.jsx!')
+      console.log(expense)
+    }
   
   return (
     <>
-    <NewExpense/>
+    <NewExpense onAddExpense={addExpenseHandler}/>
       <Expenses
         data={expenses}
       />
