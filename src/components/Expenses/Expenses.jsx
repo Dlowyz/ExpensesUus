@@ -11,7 +11,7 @@ const Expenses = (props) => {
   return (
     <Card className='expenses'>
       <ExpenseFilter filter={ExpenseFilterHandler}/>
-      {props.expenses.map((expense) => {return <ExpenseItem expenseData={expense} key={expense.id}/>})}
+      {props.expenses.map(expense => {return <ExpenseItem expenseData={expense} key={expense.id}/>})}
     </Card>
   )
 }
