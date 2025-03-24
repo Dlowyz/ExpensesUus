@@ -8,12 +8,21 @@
 }
 
 .new-expense-control input {
-    width: 200px;
+    width: 350px;
     height: 35px;
     border-radius: 5px;
+    border: 1px, solid, rgb(201, 201, 201);
+}
+
+.new-expense-control label {
+    font-weight: 500;
 }
 
 form {
     display: flex;
     justify-content: space-between;
+}
+
+.new-expense-actions {
+    margin-top: 50%;
 }

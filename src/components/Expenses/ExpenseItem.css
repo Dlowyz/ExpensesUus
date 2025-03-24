@@ -5,26 +5,27 @@
     width: 500px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid rgb(174, 106, 53);
+    border: 0px solid rgb(174, 106, 53);
     margin: 5px;
 
 }
 .expense-item_date {
     display: block;
     left: 0px;
-    background-color: rgb(208, 152, 60);
+    background-color: blanchedalmond;
     width: 75px;
     border-radius: 5px;
     padding: 3px;
-    border: 1px solid rgb(174, 106, 53);
+    border: 0px solid rgb(174, 106, 53);
 }
 
 .expense-item_description h2{
-    background-color: rgb(208, 152, 60);
+    background-color: blanchedalmond;
     border-radius: 5px;
-    border: 1px solid rgb(174, 106, 53);
+    border: 0px solid blanchedalmond;
     display: flex;
     font-size: medium;
     font-style: normal;
+    font-weight: 400;
     padding: 5px;
 }
